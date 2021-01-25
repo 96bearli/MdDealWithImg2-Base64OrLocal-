@@ -3,7 +3,7 @@
  Localization of image links referenced in markdown documents .
  And you have two options: 
  1. Save in Base64 format; 
- 2. Reference local images).
+ 2. Reference local images.
 ## And How to use it?
  * Put the document you want to process in the folder "before".
  * Then run main.py.
