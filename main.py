@@ -53,13 +53,13 @@ def getImg(urls):
             print(error)
             print("构造请求出错")
         try:
-            imgData = urllib.request.urlopen(req)
+            imgData = urllib.request.urlopen(req,timeout=5)
             dataList.append(imgData)
         except Exception as error:
             print(error)
             print("Get image error! retry!")
             try:
-                imgData = urllib.request.urlopen(req)
+                imgData = urllib.request.urlopen(req,timeout=5)
                 dataList.append(imgData)
             except:
                 print("Again!")
