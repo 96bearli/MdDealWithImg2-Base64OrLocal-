@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b427a598-0526-46ae-a53f-bab3b68b4c0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MdDealWithImg(Or2Base64).iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MdDealWithImg(Or2Base64).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/READMEe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/READMEe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/READMEe222.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/READMEe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/READMEe/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/READMEe/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/READMEe/2.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,22 +89,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="112" y="136" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1611577816469" />
-    <state width="1515" height="184" key="GridCell.Tab.0.bottom" timestamp="1611576662112">
+    <state width="1515" height="184" key="GridCell.Tab.0.bottom" timestamp="1611579204788">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="184" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1611576662112" />
-    <state width="1515" height="184" key="GridCell.Tab.0.center" timestamp="1611576662112">
+    <state width="1515" height="184" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1611579204788" />
+    <state width="1515" height="184" key="GridCell.Tab.0.center" timestamp="1611579204787">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="184" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1611576662112" />
-    <state width="1515" height="184" key="GridCell.Tab.0.left" timestamp="1611576662112">
+    <state width="1515" height="184" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1611579204787" />
+    <state width="1515" height="184" key="GridCell.Tab.0.left" timestamp="1611579204787">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="184" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1611576662112" />
-    <state width="1515" height="184" key="GridCell.Tab.0.right" timestamp="1611576662112">
+    <state width="1515" height="184" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1611579204787" />
+    <state width="1515" height="184" key="GridCell.Tab.0.right" timestamp="1611579204788">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="184" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1611576662112" />
+    <state width="1515" height="184" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1611579204788" />
     <state x="270" y="59" key="SettingsEditor" timestamp="1611578150874">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

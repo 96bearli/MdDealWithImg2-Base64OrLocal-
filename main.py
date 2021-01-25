@@ -138,18 +138,21 @@ if __name__ == '__main__':
     fileList = findMd(readPath)
     print("请注意:output文件夹即将自动重置，请关闭output文件夹或该文件夹下的任何正在使用程序")
     print("-" * 30)
-    choose = input("请选择转存模式(默认base64):\n* 输入1:本地图片\n* 输入其他:base64\n")
+    choose = input("请选择转存模式(默认base64):\n* 输入1:本地图片\n* 输入其他:base64(如果图片太多会打开困难，请谨慎选择)\n")
     outputPath = "./output"  # 文件保存路径，如果不存在就会被重建
     if os.path.exists(outputPath):  # 如果路径存在
         shutil.rmtree(outputPath)
         # os.remove(outputPath)  # 这个不对，应该是递归删除非空
     for fileName in fileList:
+        print("当前进度:%i/%i"%(fileList.index(fileName)+1,len(fileList)))
         try:
             imgUrls = findImgUrl(readPath + '/' + fileName)  # 用获取的文件路径查找文件中的img链接
             if len(imgUrls) == 0:
                 print("%s内未引用图片链接,跳过" % fileName)
                 print("-" * 30)
                 continue
+            elif len(imgUrls) >= 10:
+                print("当前文件需要处理%i个链接，可能需要较长时间，请耐心等待"%len(imgUrls))
         except Exception as error:
             print(error)
             print("文件%s获取图片链接出错" % fileName)
@@ -183,3 +186,4 @@ if __name__ == '__main__':
                 continue
         print("新的文件%s已保存到output文件夹" % fileName)
         print("-" * 30)
+    print("全部完成")
