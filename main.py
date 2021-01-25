@@ -71,8 +71,15 @@ def saveImg(fName, Datas):
                 f.write(Data.read())
         except Exception as imgError:
             print(imgError)
-            print("图片保存出错")
-            continue
+            print("图片保存出错，正在重试")
+            try:
+                with open("%s/%s.jpg" % (imgPath, str(count)), 'wb') as f:
+                    f.write(Data)
+            except Exception as imgError:
+                print(imgError)
+                print("还是不行")
+                continue
+
         count += 1
 
 
