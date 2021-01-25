@@ -53,10 +53,17 @@ def getImg(urls):
             print(error)
             print("构造请求出错")
         try:
-            imgData = urllib.request.urlopen(req, timeout=1)
+            imgData = urllib.request.urlopen(req)
             dataList.append(imgData)
-        except:
-            dataList.append("error")
+        except Exception as error:
+            print(error)
+            print("Get image error! retry!")
+            try:
+                imgData = urllib.request.urlopen(req)
+                dataList.append(imgData)
+            except:
+                print("Again!")
+            dataList.append(" ")
     return dataList
 
 
@@ -78,7 +85,7 @@ def saveImg(fName, Datas):
             except Exception as imgError:
                 print(imgError)
                 print("还是不行")
-                with open("%s/%s.jpg" % (imgPath, str(count)), 'wb') as f:
+                with open("%s/%s.jpg" % (imgPath, str(count)), 'w') as f:
                     f.write("Data")
         count += 1
 
