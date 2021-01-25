@@ -4,7 +4,7 @@
  U have two options: 
  1. Save in Base64 format; 
  2. Reference local images).
-## use
+## And How to use it?
  Put the document you want to process in the folder "before".
  Then run main.py.
  U can find the new documents in the folder "output".
